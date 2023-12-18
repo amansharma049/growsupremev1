@@ -1,0 +1,18 @@
+.pagi{
+    margin-top: 8em;
+}
+.pagi .flex{
+    justify-content: center;
+    gap: 1em;
+}
+.pagi .flex li{
+    padding: 1em;
+    cursor: pointer;
+    background: #ccc;
+    color: black;
+}
+@media (max-width:552px){
+    .pagi .flex{
+        padding: 0;
+    }
+}
